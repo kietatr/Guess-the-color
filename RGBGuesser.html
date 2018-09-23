@@ -1,0 +1,49 @@
+<!-- Kiet Tran  -->
+<!-- Sep 17, 2018 -->
+
+<!-- Guess the color from its RGB values -->
+
+<!-- Idea by Colt Steele -->
+<!-- https://www.udemy.com/user/coltsteele/ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess the color</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="RGBGuesser.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,500" rel="stylesheet">
+</head>
+<body>
+	<!-- Draw squares first so they don't get rendered on top of topBar -->
+	<div class="container">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+	
+	<div class="topBar">
+		<h1>
+			Guess the color
+			<br>
+			<span id="displayValue">rgb value</span>
+		</h1>
+	
+		<div class="menuBar">
+			<button id="resetButton">New Colors</button>
+			<span id="messageDisplay">message</span>
+			<button class="difficulty selected">Easy</button>
+			<button class="difficulty">Medium</button>
+			<button class="difficulty">Hard</button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="RGBGuesser.js"></script>
+</body>
+</html>

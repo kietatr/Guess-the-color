@@ -1,0 +1,86 @@
+/*Kiet Tran
+Sep 17, 2018*/
+
+body {
+	background-color: rgb(43, 43, 43);
+	color: white;
+
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 2.2vw;
+
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+     font-size: 17.6px;
+  }
+}
+
+.topBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(43, 43, 43, 0.8);
+}
+
+#displayValue {
+	font-size: 2em;
+}
+
+.menuBar {
+	height: 5%;
+	text-align: center;
+}
+
+#messageDisplay {
+	display: inline-block;
+	font-size: 1.3em;
+	width: 25%;
+}
+
+button {
+	border: none;
+	background: none;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.3em;
+	color: white;
+}
+
+.selected {
+	background: rgb(45, 164, 255)
+}
+
+button:hover {
+	background: rgba(45, 164, 255, 0.6);
+}
+
+.container {
+	margin-top: 15em;
+	width: 70%;
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.square {
+	background-color: white;
+	width: 30%;
+	margin: 1.66%;
+	float: left;
+	padding-bottom: 30%;
+	border-radius: 10em;
+
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+}
+
+.square:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
