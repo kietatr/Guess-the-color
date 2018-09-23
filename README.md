@@ -6,8 +6,6 @@ Idea by Colt Steele (https://www.udemy.com/user/coltsteele/).
 
 # Demo
 
-https://codepen.io/kietanhtran/full/odXbEz/
-<script async src="//jsfiddle.net/ktran/xw9rhL6t/embed/result/"></script>
 https://jsfiddle.net/ktran/xw9rhL6t/
 
 # Screenshots
